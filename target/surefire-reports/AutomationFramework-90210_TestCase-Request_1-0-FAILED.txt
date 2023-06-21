@@ -1,0 +1,48 @@
+Status: FAILED
+Time Taken: 209
+Size: 225
+Timestamp: Tue Jun 20 16:43:18 EDT 2023
+TestStep: Request 1
+
+----------------- Messages ------------------------------
+[Response SLA] Response did not meet SLA 209/200
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://api.zippopotam.us
+Method: GET
+StatusCode: 200
+URL: http://api.zippopotam.us/us/90210
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [api.zippopotam.us]
+Accept-Encoding: [gzip,deflate]
+
+GET http://api.zippopotam.us/us/90210 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: api.zippopotam.us
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+charset: [UTF-8]
+Server: [cloudflare]
+CF-RAY: [7da6d7e47d0eb3c7-MIA]
+vary: [Accept-Encoding]
+Connection: [keep-alive]
+Date: [Tue, 20 Jun 2023 20:43:19 GMT]
+access-control-allow-origin: [*]
+CF-Cache-Status: [DYNAMIC]
+NEL: [{"success_fraction":0,"report_to":"cf-nel","max_age":604800}]
+Report-To: [{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V69UaiXWx%2B9RDWt7bOqJ4p%2BZK8buIaPQf08wZ9phQx1x4pePzWIL0%2Fxncxo123RWo4TYDWRDyjs3KflXVp3dsDXlucXxwRgDG788w3xfprnzYFTAIAWuUihTqwi27sGT%2FmvQPA%3D%3D"}],"group":"cf-nel","max_age":604800}]
+Content-Encoding: [gzip]
+x-cache: [hit]
+#status#: [HTTP/1.1 200 OK]
+alt-svc: [h3=":443"; ma=86400]
+Content-Type: [application/json]
+
+{"post code": "90210", "country": "United States", "country abbreviation": "US", "places": [{"place name": "Beverly Hills", "longitude": "-118.4065", "state": "California", "state abbreviation": "CA", "latitude": "34.0901"}]}
