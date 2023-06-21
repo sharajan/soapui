@@ -61,7 +61,7 @@
 						</goals>
 						<configuration>
 							<testFailIgnore>true</testFailIgnore>
-							<projectFile>srajan-soapui-project.xml</projectFile>
+							<projectFile>project/srajan-soapui-project.xml</projectFile>
 							<!--<testSuite>CountryInfoServiceSoapBinding TestSuite</testSuite>
 							<testCase>CapitalCity TestCase</testCase>
 							<endpoint>
